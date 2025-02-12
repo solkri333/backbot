@@ -1,9 +1,9 @@
 import Topbar from "./components/topbar/Topbar";
 import Homepage from "./pages/homepage/Homepage";
 import Single from "./pages/single/Single";
-import About from "./pages/about/About";
+import About from "./pages/about/about";
 import Compliance from "./pages/compliance/compliance";
-import Contact from "./pages/contact/Contact";
+import Contact from "./pages/contact/contact";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
