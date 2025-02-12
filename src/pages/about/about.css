@@ -1,0 +1,33 @@
+.body {
+    background: linear-gradient(144deg,  #a8d409, #0e5db8);
+    min-height: 88.5vh; /* Ensures full-page background */
+    padding: 20px;
+}
+
+.heading {
+    font-weight: bold;
+    padding: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(16, 15, 15);
+}
+
+.about {
+    display: flex;
+    position: absolute;
+    padding: 20px;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.aboutme {
+    display: flex;
+
+    position: relative;
+    font-family: "Atma", serif;
+  font-weight: 600;
+  font-style: oblique;
+  font-size: larger;
+  color: gold;
+
+  
+}

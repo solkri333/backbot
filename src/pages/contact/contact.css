@@ -1,0 +1,16 @@
+.contact-page {
+    display: flexbox;
+    color: bisque;
+    background-color: rgb(104, 101, 101);
+    min-height: 93.5vh;
+}
+
+.contact {
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+.address {
+    padding-top: 5px;
+    padding-left: 50px;
+}
