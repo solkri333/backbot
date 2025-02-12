@@ -24,7 +24,7 @@ export default function Header() {
           Everyday
         </span>
         <span className={`headerTitleLg ${isScrolled ? "scrolled" : ""}`}>
-          BLOG
+          READ
         </span>
       </div>
       <img
