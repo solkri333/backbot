@@ -15,12 +15,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/posts" element={<Homepage />} />
-        <Route path="/register" element={currentUser ? <Homepage /> : <Register />} />
-        <Route path="/login" element={currentUser ? <Homepage /> : <Login />} />
         <Route path="/post/:id" element={<Single />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/settings" element={currentUser ? <Settings /> : <Login />} />
         <Route path="/compliance" element={<Compliance/> } />
       </Routes>
     </Router>
