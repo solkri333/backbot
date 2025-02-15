@@ -10,6 +10,7 @@ function App() {
   const currentUser = true;
 
   return (
+    <>
       <Topbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
@@ -19,6 +20,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/compliance" element={<Compliance/> } />
       </Routes>
+    </>
   );
 }
 
