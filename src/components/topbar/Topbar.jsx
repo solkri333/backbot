@@ -39,6 +39,11 @@ export default function Topbar() {
               Compliance
             </Link>
           </li>
+          <li className="topListItem privacy">
+          <Link className="link" to="/privacy-policy">
+            Privacy
+          </Link>
+        </li>
         </ul>
       </div>
     </div>
