@@ -62,6 +62,10 @@ const PrivacyPolicy = () => {
       <p>For any questions regarding this Privacy Policy, contact:</p>
       <p className="C"><strong>Email:</strong> stayforever3332@gmail.com</p>
       <p className="C"><strong>Website:</strong> <a href="https://everydayread.tech" target="_blank" rel="noopener noreferrer">everydayread.tech</a></p>
+
+      <div className="E">
+        <a href="https://g.ezoic.net/privacy/everydayread.tech">Ezoic Privacy Policy</a>
+      </div>
     </div>
   );
 };
