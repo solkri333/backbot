@@ -108,3 +108,17 @@
   transition: background-color 300ms ease-in-out;
 }
 
+.privacy {
+  display: flex;
+  position: relative;
+  left: 32%;
+  color: aliceblue;
+  opacity: 0.6;
+  text-shadow: none;
+  font-size: small;
+}
+
+.privacy :hover {
+  text-shadow: none;
+  color: aqua;
+}
